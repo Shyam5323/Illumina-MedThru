@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .header-cross{
+        padding: 4%;
+        height: 50px;
+        z-index: 99;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  
+    body {
+      background-image: url('background.jpg');
+      background-size: cover;
+      font-family: Tahoma, Verdana, Segoe, sans-serif;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+    
+    .header {
+        color: #000;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-left: 100px;
+    }
+    
+    .login-text {
+        color: #000;
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+  
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  
+    .button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+  
+    .checkbox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      color: #000;
+    }
+  
+    .checkbox input[type="checkbox"] {
+      margin-right: 5px;
+    }
+  
+    .terms {
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+    <header>
+
+        <img src="C:\Users\shyam\OneDrive\Desktop\Coding\HTML\3)Project\Images\cross.png">
+
+    </header>
+  <div class="container">
+    <div class="header" style="text-align: left;">
+      Health Matters<br>
+      First.
+    </div>
+    <div class="login-text">
+      Login Page
+    </div>
+    <div class="main">
+      <div class="buttons">
+        <a class="button apple" href="#">
+          <img src="apple-logo.png" alt="Apple Logo">
+          Continue with Apple
+        </a>
+        <a class="button google" href="#">
+          <img src="google-logo.png" alt="Google Logo">
+          Continue with Google
+        </a>
+        <a class="button phone" href="#">
+          <img src="phone-logo.png" alt="Phone Logo">
+          Continue with Phone Number
+        </a>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember me</label>
+      </div>
+      <div class="terms">
+        By continuing, you agree to our <a href="terms.html">Terms and Conditions</a> and <a href="privacy.html">Privacy Policy</a>.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
